@@ -10,6 +10,7 @@ s.author        = { "kunpeng" => "1169405067@qq.com" }
 s.platform      = :ios, "8.0"
 s.source        = { :git => "https://github.com/liukunpengiOS/YXEasing.git", :tag => "0.0.1" }
 s.source_files  = "YXEasing", "YXEasing/**/*.{h,m,c}"
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 s.requires_arc  = true
 
 end
